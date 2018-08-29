@@ -194,8 +194,30 @@ media query / breakpoints
 }
 
 @media all and (max-width: 360px) {
-/*	.navLink {
+	.navLink {
 		font-size: .6em;
 	}
-*/}
+}
+
+
+
+
+
+.bcgMobile {
+	background-attachment: scroll !important;
+	background-position: -100px 10px !important;
+	height: 100% !important;
+}
+
+
+.area3Mobile {
+	width: 100vw !important;
+	height: 400px !important;
+}
+
+.bcg3Mobile {
+	background-attachment: scroll !important;
+    background-position: 55% 0 !important;
+    background-size: 140vw auto !important;
+}
 

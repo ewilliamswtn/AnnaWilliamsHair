@@ -1,27 +1,34 @@
 
 
+// skrollr init
+var s = skrollr.init({
+smoothScrolling: false,
+mobileDeceleration: 0.004
+});
+
+
 // jquery init
 $(document).ready(function() {
 
-  // skrollr init
-  var s = skrollr.init({
-    smoothScrolling: false,
-    mobileDeceleration: 0.004
+  if ($(window).width() <= 480) {
+    $(".bcg").addClass("bcgMobile");
+    $(".area3").addClass("area3Mobile");
+    $(".bcg3").addClass("bcg3Mobile");
+  }
+
+  $(window).resize(function() {
+    if ($(window).width() <= 480) {
+      $(".bcg").addClass("bcgMobile");
+      $(".area3").addClass("area3Mobile");
+      $(".bcg3").addClass("bcg3Mobile");
+    } else if ($(window).width() > 480) {
+      $(".bcg").removeClass("bcgMobile");
+      $(".area3").removeClass("area3Mobile");
+      $(".bcg3").removeClass("bcg3Mobile");
+    }
   });
 
-  if (s.isMobile()) {
-    s.destroy();
-    $("#area1").css("background-attatchment", "scroll");
-    $("#area1").css("background-position", "-100px 150px");
 
-    // background-size: cover;
-    // height: 100vh;
-    // width: 100vw;
-
-
-    $("#area3").css("background-attatchment", "scroll");
-    $("#area3").css("background-position", "-100px 150px");
-  }
 
 
 // Uncomment below to remove variable stored in browser (for test purposes)
@@ -54,8 +61,8 @@ $(document).ready(function() {
   }
 
 
-	// Add smooth scrolling to 'Contact' Nav link
-	$("a").on('click', function(event) {
+  // Add smooth scrolling to 'Contact' Nav link
+  $("a").on('click', function(event) {
 
     if (this.hash == "#index") {
 
@@ -86,6 +93,5 @@ $(document).ready(function() {
     } // End if
   });
 });
-
 
 
