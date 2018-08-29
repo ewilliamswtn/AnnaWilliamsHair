@@ -66,7 +66,7 @@ nav
 
 /* parallax wrapper div */
 .bcg {
-	background-image: url("/src/assets/imgs/countryoutfitter2.jpg");
+	background-image: url("src/assets/imgs/countryoutfitter2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -131,7 +131,7 @@ section 3
 
 /* parallax wrapper div */
 .bcg3 {
-	background-image: url("/src/assets/imgs/countryoutfitter5.jpg");
+	background-image: url("src/assets/imgs/countryoutfitter5.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
