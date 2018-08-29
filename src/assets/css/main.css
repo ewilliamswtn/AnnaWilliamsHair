@@ -189,7 +189,13 @@ media query / breakpoints
 
 @media all and (max-width: 380px) {
 	.navLink {
-		font-size: .9em;
+		font-size: .8em;
+	}
+}
+
+@media all and (max-width: 360px) {
+	.navLink {
+		font-size: .6em;
 	}
 }
 
