@@ -206,7 +206,7 @@ media query / breakpoints
 .bcgMobile {
 	background-attachment: scroll !important;
 	background-position: -100px 10px !important;
-	height: 100% !important;
+	height: 600px !important;
 }
 
 
