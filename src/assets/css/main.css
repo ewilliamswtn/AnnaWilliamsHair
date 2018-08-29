@@ -27,7 +27,13 @@ nav
 */
 
 .nav-wrapper {
+	height: 64px !important;
+	line-height: 64px !important;
 	background-color: #FFF;
+}
+
+.navLink {
+	font-size: 1.2em;
 }
 
 /* nav links that show after delay */
@@ -111,11 +117,12 @@ nav
 
 /* bio inner wrapper */
 .centerWrapper {
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 /* bio content div */
 .info {
+	text-align: center;
 	color: #515151 !important;
 }
 
@@ -169,8 +176,20 @@ media query / breakpoints
 @media all and (max-width: 736px) {
 
 }
-@media all and (max-width: 480px) {
+
+@media all and (max-width: 600px) {
+
 
 }
+@media all and (max-width: 480px) {
+	.navLink {
+		font-size: 1em;
+	}
+}
 
+@media all and (max-width: 380px) {
+	.navLink {
+		font-size: .9em;
+	}
+}
 
