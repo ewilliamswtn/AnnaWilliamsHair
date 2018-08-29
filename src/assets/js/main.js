@@ -1,14 +1,11 @@
 
 
-// skrollr init
-var s = skrollr.init({
-smoothScrolling: false,
-mobileDeceleration: 0.004
-});
+
 
 
 // jquery init
 $(document).ready(function() {
+
 
   if ($(window).width() <= 480) {
     $(".bcg").addClass("bcgMobile");
@@ -28,7 +25,11 @@ $(document).ready(function() {
     }
   });
 
-
+  // skrollr init
+  var s = skrollr.init({
+    smoothScrolling: false,
+    mobileDeceleration: 0.004
+  });
 
 
 // Uncomment below to remove variable stored in browser (for test purposes)
