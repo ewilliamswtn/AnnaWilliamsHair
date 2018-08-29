@@ -189,7 +189,7 @@ media query / breakpoints
 
 @media all and (max-width: 380px) {
 	.navLink {
-		font-size: .6em;
+		font-size: .8em;
 	}
 }
 
@@ -205,14 +205,14 @@ media query / breakpoints
 
 .bcgMobile {
 	background-attachment: scroll !important;
-	background-position: -120px 0px !important;
+	background-position: -140px 0px !important;
 	height: 600px !important;
 }
 
 
 .area3Mobile {
 	width: 100vw !important;
-	height: 400px !important;
+	height: 300px !important;
 }
 
 .bcg3Mobile {
