@@ -192,7 +192,8 @@ media query / breakpoints
 @media all and (max-width: 380px) {
 	.navLink {
 		font-size: .6em;
-		font-weight: 600;
+		font-weight: 700;
+		letter-spacing: 1px;
 	}
 
 	nav {
@@ -206,6 +207,11 @@ media query / breakpoints
 	.nav-wrapper {
 		height: 40px !important;
 		line-height: 40px !important;
+	}
+
+
+	.bcgMobile {
+		background-position: -180px 0px !important;
 	}
 
 }
@@ -222,7 +228,7 @@ media query / breakpoints
 
 .bcgMobile {
 	background-attachment: scroll !important;
-	background-position: -180px 0px !important;
+	background-position: -100px 0px !important;
 	height: 600px !important;
 }
 
