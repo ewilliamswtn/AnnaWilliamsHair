@@ -1,0 +1,176 @@
+
+/* 
+color pallete
+*/
+
+/* 
+#DFE9E3 light steel blue
+#E7B793 burly wood
+#E5DAB2	pale goldenrod
+#AB9B81 rosy brown
+#31291B dark olive green
+*/
+
+
+/*
+body
+*/
+
+body {
+	height: 100% !important;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/*
+nav
+*/
+
+.nav-wrapper {
+	background-color: #FFF;
+}
+
+/* nav links that show after delay */
+.navHide {
+	/*display: none;*/
+}
+
+
+/*
+************************************************
+*	     ** Note on Section/Area: **           *
+*                                              *
+* 'section' in comments = 'area' in class/id   *
+*                                              *
+*                  Why:                        *
+*                                              *
+* 'section' is a better name, but Materialize  *
+*  has innate styling for 'section's, so I use *
+* 'area', 'area1', 'area2', etc. where I would *
+*  have liked to use 'section'.                *
+*  In spite of the descrepency, I think        *
+*  styling around sections is more intuitive.  *
+************************************************
+*/
+
+
+ /*
+ section 1
+ */
+
+/* section wrapper */
+.area1 {
+	height: 100vh;
+}
+
+
+/* parallax wrapper div */
+.bcg {
+	background-image: url("/src/assets/imgs/countryoutfitter2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+ /*
+ section 2
+ */
+
+ /* section wrapper */
+.area2 {
+	border-radius: 25px;
+
+}
+
+/* parallax wrapper div */
+.bcg2 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+/* bio outer wrapper */
+.midContainerWrapper {
+	background-color: #DFE9E3;
+	margin-top: 5px !important;
+	/*margin-right: 5px !important;*/
+	margin-bottom: 5px !important;
+	/*margin-left: 5px !important;*/
+	padding: 25px 10px 15px 10px;
+/*	-webkit-box-shadow: 0 0 10px #DFE9E3;
+    box-shadow: 0 0 10px #DFE9E3;*/
+	-webkit-box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
+    /*border-radius: 1.5px;*/
+}
+
+/* bio inner wrapper */
+.centerWrapper {
+	font-size: 1.2em;
+}
+
+/* bio content div */
+.info {
+	color: #515151 !important;
+}
+
+
+/*
+section 3
+*/
+
+/* section wrapper */
+.area3 {
+	height: 100vh;
+}
+
+/* parallax wrapper div */
+.bcg3 {
+	background-image: url("/src/assets/imgs/countryoutfitter5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*
+footer
+*/
+
+.page-footer {
+	background-color: #FFF;
+}
+
+.footerBottom {
+	background-color: #DFE9E3FF !important;
+}
+
+/*
+media query / breakpoints
+*/
+
+@media all and (max-width: 1690px) {
+
+}
+@media all and (max-width: 1280px) {
+
+}
+@media all and (max-width: 980px) {
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 480px) {
+
+}
+
+
