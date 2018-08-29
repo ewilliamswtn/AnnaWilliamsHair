@@ -9,9 +9,9 @@ $(document).ready(function() {
     mobileDeceleration: 0.004
   });
 
-  // if (s.isMobile()) {
-  //   s.destroy();
-  // }
+  if (s.isMobile()) {
+    s.destroy();
+  }
 
   
 // Uncomment below to remove variable stored in browser (for test purposes)
