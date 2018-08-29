@@ -194,8 +194,8 @@ media query / breakpoints
 }
 
 @media all and (max-width: 360px) {
-	.navLink {
+/*	.navLink {
 		font-size: .6em;
 	}
-}
+*/}
 

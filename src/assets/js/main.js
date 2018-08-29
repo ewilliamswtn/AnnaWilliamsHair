@@ -12,7 +12,15 @@ $(document).ready(function() {
   if (s.isMobile()) {
     s.destroy();
     $("#area1").css("background-attatchment", "scroll");
+    $("#area1").css("background-position", "-100px 150px");
+
+    // background-size: cover;
+    // height: 100vh;
+    // width: 100vw;
+
+
     $("#area3").css("background-attatchment", "scroll");
+    $("#area3").css("background-position", "-100px 150px");
   }
 
 
