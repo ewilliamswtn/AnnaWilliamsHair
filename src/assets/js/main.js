@@ -11,9 +11,11 @@ $(document).ready(function() {
 
   if (s.isMobile()) {
     s.destroy();
+    $("#area1").css("background-attatchment", "scroll");
+    $("#area3").css("background-attatchment", "scroll");
   }
 
-  
+
 // Uncomment below to remove variable stored in browser (for test purposes)
 // localStorage.removeItem("newSesh");
 
